@@ -6,11 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="shopping-center" />
+        <module name="sho-porder" />
+        <module name="shop-common" />
+        <module name="shop-order" />
+        <module name="shop-product" />
+        <module name="shop-user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="shopping-center" target="1.5" />
+      <module name="sho-porder" target="1.8" />
+      <module name="shop-common" target="1.8" />
+      <module name="shop-order" target="1.8" />
+      <module name="shop-product" target="1.8" />
+      <module name="shop-user" target="1.8" />
+      <module name="shopping-center" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
